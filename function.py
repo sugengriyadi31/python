@@ -1,7 +1,7 @@
 #Cara mendefenisikan Sebuah Fungsi
-def hitung(a,b,c):
-    perhitungan=a+b*c
+def hitung(a,b,c,d):
+    perhitungan=(a+b*c)/d
     print(perhitungan)
 
 #Cara Memanggil/Menggunakan Fungsi
-hitung(1,5,12)
+hitung(1,5,12,4)
